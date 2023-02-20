@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url("https://images.unsplash.com/photo-1676321672639-93483536d1ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMzZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60") bottom no-repeat; 
+    background-size: cover;
+}
+
+h1 {
+    color:#1ae7e0f7;
+    font-size: 8rem;
+    font-family: 'Times New Roman', Times, serif; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #957dad,
+               1px 2px 0px #957dad,
+               1px 3px 0px #957dad,
+               1px 4px 0px #957dad,
+               1px 5px 0px #957dad,
+               1px 6px 0px #957dad,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
+
+}
+
+p::first-line {
+    color: #69438f;
+}
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article h2 {
+    font-size: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ 
+article h3 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: serif ;
+    background-color: #0085a1;
+    color: rgb(245, 253, 12);
+    text-shadow: 2px 4px 6px rgb(33, 250, 247),
+                 3px 6px 9px rgb(12, 102, 109),
+                 4px 8px 11px rgb(218, 219, 183);
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+article a:hover {
+    color: #0085a1;
+}
+.article-meta {
+    color: rgb(134.142.150);
+    margin-bottom: 5px;
+}
+article img {
+    width: 100%;
+    height: 300%;
+    object-fit: cover;
+}
+
+
+article:nth-child(even) {
+    background-color: rgb(33, 250, 247);
+    border-width: 20px;
+    border-style:double;
+    border-color: rgb(9, 169, 171);
+
+}
+article:nth-child(odd) {
+    background-color: aqua;
+    border-width: 20px;
+    border-style: dashed;
+    border-color: #0085a1;
+}
+
+.one::before {
+   content: "new";
+   background-color: rgb(250, 238, 19);
+   border-style:dotted;
+   border-radius: 30%;
+   padding: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 2em;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(219, 30, 43);
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links  > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family:'Times New Roman', Times, serif;
+}
+
